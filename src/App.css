@@ -16,7 +16,8 @@
     margin-left: 20px;
 }
 .internship{
-    width:50%;
+    margin:auto;
+   width:40%;
     margin-top:24px;
     height:0%;
     background: #fff;
@@ -25,7 +26,6 @@
     border: 3px solid #EEE;
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%);
     border-radius: 8px;
-    margin:auto;
 
 }
 .individual_internship_header{
@@ -104,6 +104,7 @@ vertical-align: bottom;}
 }
 .view_detail_button{
     float:right;
+    margin-right:10px;
 }
 .button_container a{
     color:#fa8231;
@@ -112,4 +113,9 @@ vertical-align: bottom;}
 }
 .label_container{
     color:gray;
+}
+.internships{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
 }
