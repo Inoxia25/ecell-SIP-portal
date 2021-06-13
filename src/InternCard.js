@@ -4,6 +4,8 @@ import { MdDateRange } from "react-icons/md";
 import { FaRupeeSign } from "react-icons/fa";
 import {AiOutlineArrowRight} from 'react-icons/ai';
 import {IoIosArrowForward } from "react-icons/io";
+
+import { BiTimeFive } from "react-icons/bi";
 export default function InternCard(props) {
     return (
         <div className="internship">
@@ -63,7 +65,7 @@ export default function InternCard(props) {
                     <div className="other_detail_item_row d-flex flex-row">
                         <div className="other_detail_item  mr-5 apply_by">
                             <div className="item_heading">
-                                <span className="material-icons md-18 md-dark md-icon">access_time</span>
+                                <span className="material-icons md-18 md-dark md-icon"><BiTimeFive/></span>
                                 <span className="md-dark icon-text">Apply By</span>
                             </div>
                             <div className="item_body d-flex flex-row">{props.last_date}</div>
